@@ -1,0 +1,102 @@
+{
+  "selected_features": [
+    "feature_or_width_points",
+    "feature_or_width_pct",
+    "feature_or_direction",
+    "feature_or_return",
+    "feature_breakout_direction",
+    "feature_breakout_minutes_since_0915",
+    "feature_breakout_distance_points"
+  ],
+  "target": "target_reached_1_5r",
+  "timing_proofs": {
+    "feature_or_width_points": "09:15\u201309:29 candle highs/lows, completed by 09:30.",
+    "feature_or_width_pct": "OR width / 09:15 open; known by 09:30.",
+    "feature_or_direction": "Sign of 09:29 close minus 09:15 open; known by 09:30.",
+    "feature_or_return": "09:29 close / 09:15 open \u2212 1; known by 09:30.",
+    "feature_breakout_direction": "Completed signal close strictly above/below OR boundary.",
+    "feature_breakout_minutes_since_0915": "Signal start minute + 1 \u2212 09:15, derived clock feature at confirmation.",
+    "feature_breakout_distance_points": "Completed signal close beyond the relevant OR boundary."
+  },
+  "excluded_columns": {
+    "event_id": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "prediction_timestamp": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "signal_candle_start": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "feature_or_width_prev_atr14": {
+      "reason": "Historical feature has missing values; excluded as a whole column, no imputation.",
+      "missing_count": 226
+    },
+    "feature_gap_pct": {
+      "reason": "Historical feature has missing values; excluded as a whole column, no imputation.",
+      "missing_count": 21
+    },
+    "feature_prev_day_return": {
+      "reason": "Historical feature has missing values; excluded as a whole column, no imputation.",
+      "missing_count": 41
+    },
+    "feature_prev_day_range_points": {
+      "reason": "Historical feature has missing values; excluded as a whole column, no imputation.",
+      "missing_count": 21
+    },
+    "feature_historical_vol20": {
+      "reason": "Historical feature has missing values; excluded as a whole column, no imputation.",
+      "missing_count": 299
+    },
+    "feature_history_available": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "execution_status": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "fill_entry_timestamp": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "fill_entry_price": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "fill_risk_points": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "target_reached_1_5r": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "target_net_return_r": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    },
+    "outcome_exit_reason": {
+      "reason": "Identifier/raw timestamp, history-availability flag, execution-dependent field or outcome; excluded from predictors."
+    }
+  },
+  "schema_dtypes": {
+    "event_id": "object",
+    "prediction_timestamp": "object",
+    "signal_candle_start": "object",
+    "feature_or_width_points": "float64",
+    "feature_or_width_pct": "float64",
+    "feature_or_width_prev_atr14": "float64",
+    "feature_gap_pct": "float64",
+    "feature_prev_day_return": "float64",
+    "feature_prev_day_range_points": "float64",
+    "feature_or_direction": "int64",
+    "feature_or_return": "float64",
+    "feature_breakout_direction": "int64",
+    "feature_breakout_minutes_since_0915": "int64",
+    "feature_breakout_distance_points": "float64",
+    "feature_historical_vol20": "float64",
+    "feature_history_available": "bool",
+    "execution_status": "object",
+    "fill_entry_timestamp": "object",
+    "fill_entry_price": "float64",
+    "fill_risk_points": "float64",
+    "target_reached_1_5r": "int64",
+    "target_net_return_r": "float64",
+    "outcome_exit_reason": "object"
+  },
+  "selection_policy": "Seven current-session features fixed structurally from pipeline definitions; historical features excluded for unavailable records, not performance. No row deletion or fitted imputation."
+}

@@ -1,0 +1,287 @@
+{
+  "description": "Original local source hashes before publication edits; not hashes of the edited publication copy. Raw market data and serialized models are excluded.",
+  "files": [
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_pipeline.py",
+      "publication_file": "orb_pipeline.py",
+      "original_sha256": "9c6b4d319f7391058cbd88c3afa38ca35ec183268b25b1800f963da16cc97e80"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostics.py",
+      "publication_file": "orb_diagnostics.py",
+      "original_sha256": "3ee54c9c84f624c034064d8b2f768025ba5425f68feb7e58794cfa8db469a85c"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostic_tests.py",
+      "publication_file": "orb_diagnostic_tests.py",
+      "original_sha256": "858ef0c5fbebf3116a377329c527db8050624ae0e40182011df27fbf3af969dc"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_research_report.md",
+      "publication_file": "orb_research_report.md",
+      "original_sha256": "eb6ac30a2385db7df0d45b5832034116e42760a7096ce71c01295ba2e31e563b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostics_is.md",
+      "publication_file": "orb_diagnostics_is.md",
+      "original_sha256": "1715073d4e7e251070a8e8a0ed8153a90d9b7be6b44f8188ff9c57ae34e34984"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "requirements.txt",
+      "publication_file": "requirements.txt",
+      "original_sha256": "e0f60eb5053f6b6b78ffe89e945edbf1f92402fa35bcb348cee5f2c61d85c36b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_is_metrics.json",
+      "publication_file": "orb_is_metrics.json",
+      "original_sha256": "92ea2d80a9fe2fa6a1e9b9f44f64399b041de26dc2c0996d82c4baa7c9d06d9b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_oos_metrics.json",
+      "publication_file": "orb_oos_metrics.json",
+      "original_sha256": "d59d9aacb6b30f16aeeda49ffa640fe609c1a1cffe9b398398d37c56dc3fb561"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "tests/test_orb.py",
+      "publication_file": "tests/test_orb.py",
+      "original_sha256": "2978ab96e2f736b89c9df6470d7cb1debe40a830955ed0d0a3b18c322ccc4460"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/features.json",
+      "publication_file": "orb_logistic_v1/features.json",
+      "original_sha256": "a5da382c86d8788c0a1778ffa434ad3d7893d48adeb7ace67dc53ae840abda18"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/metrics.json",
+      "publication_file": "orb_logistic_v1/metrics.json",
+      "original_sha256": "bc93652a862b5ab9df3ba664a64fc3d011bd97b2d51264650f5afa3f18c635dc"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/report.md",
+      "publication_file": "orb_logistic_v1/report.md",
+      "original_sha256": "47325d9bf678ac8b1c0e87eada162717cec143f264e6f29cd50046b4fd527e56"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/requirements.txt",
+      "publication_file": "orb_logistic_v1/requirements.txt",
+      "original_sha256": "d9fde03c5fd149623b3f2725f3abe808a42867b9ccb75831e097b536d7c79dfc"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/test_logistic.py",
+      "publication_file": "orb_logistic_v1/test_logistic.py",
+      "original_sha256": "88b0d2424375866d4d4ead8fcf6338c4e4f9744cf56b1ba668066bfd945d3bc1"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_v1/train.py",
+      "publication_file": "orb_logistic_v1/train.py",
+      "original_sha256": "b80be5d5eaff9c6e89473ebb29d641f60a5889aa165a318f610466f42a985c9a"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_directional_v2/comparison_report.md",
+      "publication_file": "orb_logistic_directional_v2/comparison_report.md",
+      "original_sha256": "8463b8b0126ebba03786d41043cb23867856a95766e912eb33b646ed5ba19670"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_directional_v2/directional_model_metrics.json",
+      "publication_file": "orb_logistic_directional_v2/directional_model_metrics.json",
+      "original_sha256": "d58769a852e46970d4c5550e1a7020d5d8f60b4a650321d93aedc78f8ca8d921"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_directional_v2/run.py",
+      "publication_file": "orb_logistic_directional_v2/run.py",
+      "original_sha256": "27ffd3a12c084d60ea1bf3ea4eee6daf839f6a960dc7f6bec863744b50fbaf60"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_directional_v2/test_directional.py",
+      "publication_file": "orb_logistic_directional_v2/test_directional.py",
+      "original_sha256": "211dbd71552ac469f613b99adaa06c1ac4a13d0043f66422a40d4bf0f4f15d58"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/charts.py",
+      "publication_file": "orb_vervoort_atr_research/charts.py",
+      "original_sha256": "7fef0ba6de58804ace59d5e9218529657516d9c42aa64068464f76fbfa6e7b69"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/experiment.py",
+      "publication_file": "orb_vervoort_atr_research/experiment.py",
+      "original_sha256": "566a2007de02b23f774a0a33dfd683c599e4a6febdad8829b0d03499a4828864"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/features.json",
+      "publication_file": "orb_vervoort_atr_research/features.json",
+      "original_sha256": "4468150b671977ad58c2e2ca0b56c9d921de6a769e354dda677639ad1668ebfd"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/fold_windows.json",
+      "publication_file": "orb_vervoort_atr_research/fold_windows.json",
+      "original_sha256": "0ab0f13a22e1e10fe85099121296cd37dc4016b601621dae8b7154167f12ac97"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/ml_metrics.json",
+      "publication_file": "orb_vervoort_atr_research/ml_metrics.json",
+      "original_sha256": "92304e153270a6430a1428618f309261ce3b84ade2f421e98d727290019bf314"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/rebuild_ml.py",
+      "publication_file": "orb_vervoort_atr_research/rebuild_ml.py",
+      "original_sha256": "807922109e2eaaef86fbf59dcb6a39641ed9b448c9c51b5d001a9d441c2d9044"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/reconciliation_checks.json",
+      "publication_file": "orb_vervoort_atr_research/reconciliation_checks.json",
+      "original_sha256": "a877029fa2e5c6d9f68fde50a01c56c65a08ff02c07594fdf0f1c1a69bcc33f7"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/requirements.txt",
+      "publication_file": "orb_vervoort_atr_research/requirements.txt",
+      "original_sha256": "ab99207e5cdbecdf2c0feff8e86b31981674d55b37dec0f800624d185828463b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/research_report.md",
+      "publication_file": "orb_vervoort_atr_research/research_report.md",
+      "original_sha256": "c847e6dddd6ef0aaaf28748206a9ad9db74b5c1cc81656c32ba8529771f1fc9b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/strategy.py",
+      "publication_file": "orb_vervoort_atr_research/strategy.py",
+      "original_sha256": "d8067fae998c265252451c53baf8a2ba496b0e9b7de0a57ad08c369e1504baaf"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/test_results.py",
+      "publication_file": "orb_vervoort_atr_research/test_results.py",
+      "original_sha256": "64b0f3c255214a10344c56ffec6533041a246522710cc0ad4907aef90c51c9da"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/test_strategy.py",
+      "publication_file": "orb_vervoort_atr_research/test_strategy.py",
+      "original_sha256": "12c11e9def953115ec78f50acd2d5948dbedf0772fd4af784ea0ee8007fdbac6"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/charts/execution_modes.png",
+      "publication_file": "orb_vervoort_atr_research/charts/execution_modes.png",
+      "original_sha256": "67fca045a89ca61d39e170e8b19d239a136872d363a4fff4b740085d0dfaa9cb"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/charts/ml_probability_scores.png",
+      "publication_file": "orb_vervoort_atr_research/charts/ml_probability_scores.png",
+      "original_sha256": "654aa6f81f7ba310663e9f21a55b1fd55a4bab9b8a2e46488102249de4af0e4c"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/charts/probability_net_r.png",
+      "publication_file": "orb_vervoort_atr_research/charts/probability_net_r.png",
+      "original_sha256": "67f4fcf7e4a626f688cf8fb350b504d7962a48332a2336a3eb0005363b4f9a4b"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostic_charts/cost_expectancy.png",
+      "publication_file": "orb_diagnostic_charts/cost_expectancy.png",
+      "original_sha256": "988709596e9344aba4188daa59f14c25dfbcdaba5fc924fac0f076f0a3934c4e"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostic_charts/exit_conditions.png",
+      "publication_file": "orb_diagnostic_charts/exit_conditions.png",
+      "original_sha256": "2470b5a62426ce2d0a70643255976f5d7d9c62e7f156f74b14c8002e82734c6d"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostic_charts/exit_distribution.png",
+      "publication_file": "orb_diagnostic_charts/exit_distribution.png",
+      "original_sha256": "b75dd832510362e985b33e6cb8f1cecc3aea072fd4d2fa611a3f3f747788ac38"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_diagnostic_charts/feature_expectancy.png",
+      "publication_file": "orb_diagnostic_charts/feature_expectancy.png",
+      "original_sha256": "d4196af0a03e0275ce5b32c2cadc9b3217e637643090ff15a52a3f39ceadf492"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "orb_backtest.py",
+      "publication_file": "legacy_translation/orb_backtest.py",
+      "original_sha256": "8845b8864c736f746cbcca65805dea1cca05268fad3f4375edce4383978e1daf"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "check_orb_backtest.py",
+      "publication_file": "legacy_translation/check_orb_backtest.py",
+      "original_sha256": "3f29209e708df6bd76707032c35378de308f3ea923f37196adda68acaa6d15cc"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "analyze_orb_width.py",
+      "publication_file": "legacy_translation/analyze_orb_width.py",
+      "original_sha256": "7adbc108bbcf3ccfe81d3d9189bf7cf961e68e843233b768c8a026df1def7c37"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "analyze_shorts.py",
+      "publication_file": "legacy_translation/analyze_shorts.py",
+      "original_sha256": "e1ca4945b61db294870d53875ee04843dc2fdc95e23736b4186db8dd06e76350"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "PY_ORB_METHOD.md",
+      "publication_file": "legacy_translation/PY_ORB_METHOD.md",
+      "original_sha256": "2142075c4aee629cb9f9259aec0a96c12b066884ad22c6ec4b4dc157543665ea"
+    },
+    {
+      "source_project": "ORB strategy nifty50",
+      "source_file": "PY_ORB_RESULTS.md",
+      "publication_file": "legacy_translation/PY_ORB_RESULTS.md",
+      "original_sha256": "c06bd32e17c00eccc8929be079fe31793afacab219e79fb11dfab3616d721573"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/atr_multiplier_comparison.csv",
+      "publication_file": "orb_vervoort_atr_research/atr_multiplier_comparison.csv",
+      "original_sha256": "3e665030ae3e2d438119dbf296d0434ac65a82cf0bb1b46d823d66bf707e9d9e"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_vervoort_atr_research/long_short_breakdown.csv",
+      "publication_file": "orb_vervoort_atr_research/long_short_breakdown.csv",
+      "original_sha256": "22cc6488bdfbd5b9f13f7bc696af38002ad52393c98527c2d5fc8cba1910f22c"
+    },
+    {
+      "source_project": "ORB_NIFTY_50",
+      "source_file": "orb_logistic_directional_v2/directional_diagnostics.csv",
+      "publication_file": "orb_logistic_directional_v2/directional_diagnostics.csv",
+      "original_sha256": "757e04f9e3f3f2a7b05a2c2985454fabc3a9f96ab4d6bb4ade48120d2ee3a253"
+    }
+  ]
+}

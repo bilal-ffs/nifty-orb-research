@@ -1,0 +1,49 @@
+# Private market data, row-level outputs, and serialized models.
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.pickle
+data/**
+!data/README.md
+# Reviewed aggregate tables only.
+!orb_vervoort_atr_research/atr_multiplier_comparison.csv
+!orb_vervoort_atr_research/long_short_breakdown.csv
+!orb_logistic_directional_v2/directional_diagnostics.csv
+!orb_logistic_directional_v2/v1_v2_comparison.csv
+orb_data_audit.json
+orb_logistic_v1/folds.json
+orb_logistic_v1/verification_snippets.json
+orb_logistic_directional_v2/input_manifest.json
+orb_vervoort_atr_research/data_audit.json
+orb_vervoort_atr_research/experiment_manifest.json
+legacy_translation/PY_ORB_*
+!legacy_translation/PY_ORB_METHOD.md
+!legacy_translation/PY_ORB_RESULTS.md
+legacy_translation/ORB width analysis/
+legacy_translation/Short side tests/
+results/
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

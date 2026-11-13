@@ -1,0 +1,772 @@
+{
+  "number_of_trades": 1624,
+  "long_trades": 759,
+  "short_trades": 865,
+  "win_rate_net": 0.40578817733990147,
+  "average_winner_currency": 419.58053724990384,
+  "average_loser_currency": -455.15477826233104,
+  "average_winner_r": 0.9196372780656734,
+  "average_loser_r": -1.1046207762209586,
+  "profit_factor_net": 0.6295269538410541,
+  "expectancy_net_r": -0.28320078990637093,
+  "gross_pnl": 32139.100469547855,
+  "net_pnl": -162720.7869754629,
+  "transaction_cost_pnl": 162383.2392696864,
+  "slippage_pnl": 32476.648175324342,
+  "maximum_drawdown_pct": 0.16935186835589355,
+  "maximum_drawdown_currency": 170292.11490127898,
+  "sharpe_daily_252_rf0": -2.705145364551908,
+  "account_equity_positive_throughout": true,
+  "account": {
+    "initial_capital_inr": 1000000,
+    "sizing": "Fractional index proxy units = initial capital * notional_fraction / adverse entry fill; default 10% fixed initial-capital notional, no compounding of position sizing.",
+    "equity": "Initial capital plus cumulative net INR proxy P&L, independently reset in each split; daily closing equity, no intraday mark-to-market.",
+    "daily_return": "Daily net P&L / previous observed-session closing equity. All observed regular dates included, including excluded/no-trade dates as zero. No holidays/weekends added. No risk-free return; annualization sqrt(252).",
+    "not_executable": "Index-price research proxy; fractional units are not futures contracts; futures basis, margin, lot sizes and liquidity are not modeled."
+  },
+  "config": {
+    "capital": 1000000,
+    "cost_bps": 5,
+    "slippage_bps": 1,
+    "target_r": 1.5,
+    "notional_fraction": 0.1
+  },
+  "observed_daily_return_count": 1720,
+  "monthly": [
+    {
+      "period": "2015-01",
+      "gross_pnl": 330.0202703471299,
+      "net_pnl": -989.2210601428188,
+      "transaction_cost": 1099.367772658132,
+      "slippage": 219.87355783181658,
+      "account_return": -0.0009892210601427642
+    },
+    {
+      "period": "2015-02",
+      "gross_pnl": 2118.092860480227,
+      "net_pnl": -281.19575810513857,
+      "transaction_cost": 1999.407164503792,
+      "slippage": 399.8814540815743,
+      "account_return": -0.0002814741983099278
+    },
+    {
+      "period": "2015-03",
+      "gross_pnl": 4034.8906454746525,
+      "net_pnl": 1877.3771091124413,
+      "transaction_cost": 1797.9279133444807,
+      "slippage": 359.5856230177307,
+      "account_return": 0.0018797651944293392
+    },
+    {
+      "period": "2015-04",
+      "gross_pnl": 4152.912940051983,
+      "net_pnl": 1876.0701703802088,
+      "transaction_cost": 1897.368940118943,
+      "slippage": 379.47382955283297,
+      "account_return": 0.001874932161010756
+    },
+    {
+      "period": "2015-05",
+      "gross_pnl": 3648.5084784840988,
+      "net_pnl": 1367.9170154889684,
+      "transaction_cost": 1900.4928554251028,
+      "slippage": 380.098607570027,
+      "account_return": 0.0013645288487920126
+    },
+    {
+      "period": "2015-06",
+      "gross_pnl": 574.3896515633835,
+      "net_pnl": -2064.952980413117,
+      "transaction_cost": 2199.4521885272134,
+      "slippage": 439.8904434492878,
+      "account_return": -0.0020570314603016726
+    },
+    {
+      "period": "2015-07",
+      "gross_pnl": 1986.0198513622263,
+      "net_pnl": -294.25406894339255,
+      "transaction_cost": 1900.2282503711788,
+      "slippage": 380.04566993443956,
+      "account_return": -0.0002937294697271664
+    },
+    {
+      "period": "2015-08",
+      "gross_pnl": -1418.0332674309489,
+      "net_pnl": -3335.3502061199224,
+      "transaction_cost": 1597.7641273911327,
+      "slippage": 319.5528112978403,
+      "account_return": -0.003330382140442234
+    },
+    {
+      "period": "2015-09",
+      "gross_pnl": 2514.1136898544733,
+      "net_pnl": 712.8747727288307,
+      "transaction_cost": 1501.0324099871325,
+      "slippage": 300.20650713850915,
+      "account_return": 0.0007141914630943713
+    },
+    {
+      "period": "2015-10",
+      "gross_pnl": 626.6330511990135,
+      "net_pnl": -1652.1943818668303,
+      "transaction_cost": 1899.022855666309,
+      "slippage": 379.80457739953533,
+      "account_return": -0.0016540646907148293
+    },
+    {
+      "period": "2015-11",
+      "gross_pnl": -393.0701480841409,
+      "net_pnl": -2553.4880659765186,
+      "transaction_cost": 1800.3482681859255,
+      "slippage": 360.0696497064521,
+      "account_return": -0.0025606140741343264
+    },
+    {
+      "period": "2015-12",
+      "gross_pnl": 3268.0495296983586,
+      "net_pnl": 867.9753248347942,
+      "transaction_cost": 2000.0618101525968,
+      "slippage": 400.01239471096795,
+      "account_return": 0.0008726320537570942
+    },
+    {
+      "period": "2016-01",
+      "gross_pnl": 4665.434895173044,
+      "net_pnl": 2385.5738200598944,
+      "transaction_cost": 1899.8841903823497,
+      "slippage": 379.9768847308024,
+      "account_return": 0.002396281465110839
+    },
+    {
+      "period": "2016-02",
+      "gross_pnl": 1082.5227818543433,
+      "net_pnl": -1437.598107328794,
+      "transaction_cost": 2100.1007319649543,
+      "slippage": 420.02015721818293,
+      "account_return": -0.001440598684674832
+    },
+    {
+      "period": "2016-03",
+      "gross_pnl": -1103.599118283933,
+      "net_pnl": -3504.6764992948874,
+      "transaction_cost": 2000.897826705831,
+      "slippage": 400.1795543051239,
+      "account_return": -0.0035170581845176407
+    },
+    {
+      "period": "2016-04",
+      "gross_pnl": -66.43876156935619,
+      "net_pnl": -2105.8146311117152,
+      "transaction_cost": 1699.4798918389763,
+      "slippage": 339.89597770338264,
+      "account_return": -0.0021207129426161764
+    },
+    {
+      "period": "2016-05",
+      "gross_pnl": 420.99058204944924,
+      "net_pnl": -1858.7674379210137,
+      "transaction_cost": 1899.7983464671709,
+      "slippage": 379.95967350329244,
+      "account_return": -0.0018758961661765605
+    },
+    {
+      "period": "2016-06",
+      "gross_pnl": 398.3372612592319,
+      "net_pnl": -2121.179787798189,
+      "transaction_cost": 2099.597537561722,
+      "slippage": 419.91951149569854,
+      "account_return": -0.002144750000464213
+    },
+    {
+      "period": "2016-07",
+      "gross_pnl": -505.3695961849527,
+      "net_pnl": -2785.489784721495,
+      "transaction_cost": 1900.1001613252013,
+      "slippage": 380.02002721134096,
+      "account_return": -0.002822495251180057
+    },
+    {
+      "period": "2016-08",
+      "gross_pnl": -387.27513956069566,
+      "net_pnl": -2786.1637302281642,
+      "transaction_cost": 1999.0738287835998,
+      "slippage": 399.8147618838692,
+      "account_return": -0.002831169111482179
+    },
+    {
+      "period": "2016-09",
+      "gross_pnl": 1252.452247048871,
+      "net_pnl": -788.0418983844473,
+      "transaction_cost": 1700.4117774240397,
+      "slippage": 340.0823680092784,
+      "account_return": -0.0008030448302323023
+    },
+    {
+      "period": "2016-10",
+      "gross_pnl": 1120.6984353638393,
+      "net_pnl": -1039.0200188956067,
+      "transaction_cost": 1799.7653692104136,
+      "slippage": 359.9530850490324,
+      "account_return": -0.0010596520808988652
+    },
+    {
+      "period": "2016-11",
+      "gross_pnl": 3657.6016482828873,
+      "net_pnl": 1498.3585633135378,
+      "transaction_cost": 1799.3692069944689,
+      "slippage": 359.8738779748805,
+      "account_return": 0.0015297328020995593
+    },
+    {
+      "period": "2016-12",
+      "gross_pnl": -256.8295468162533,
+      "net_pnl": -2778.3526433524885,
+      "transaction_cost": 2101.269249253838,
+      "slippage": 420.2538472823967,
+      "account_return": -0.002832196267615883
+    },
+    {
+      "period": "2017-01",
+      "gross_pnl": 329.93349037474184,
+      "net_pnl": -1951.085477919852,
+      "transaction_cost": 1900.8491374960618,
+      "slippage": 380.1698307985325,
+      "account_return": -0.0019945458629463397
+    },
+    {
+      "period": "2017-02",
+      "gross_pnl": -381.88822047179366,
+      "net_pnl": -2540.740373703992,
+      "transaction_cost": 1799.04346420931,
+      "slippage": 359.80868902288864,
+      "account_return": -0.0026025261660365118
+    },
+    {
+      "period": "2017-03",
+      "gross_pnl": -187.75558966327864,
+      "net_pnl": -2707.518255107331,
+      "transaction_cost": 2099.8022227680585,
+      "slippage": 419.9604426759934,
+      "account_return": -0.0027805963311268167
+    },
+    {
+      "period": "2017-04",
+      "gross_pnl": -257.6222390546691,
+      "net_pnl": -2297.8515460373824,
+      "transaction_cost": 1700.19109129914,
+      "slippage": 340.0382156835733,
+      "account_return": -0.0023664525402622427
+    },
+    {
+      "period": "2017-05",
+      "gross_pnl": 523.0479062372784,
+      "net_pnl": -1876.8274419173858,
+      "transaction_cost": 1999.8961191035223,
+      "slippage": 399.97922905114166,
+      "account_return": -0.0019374438803666516
+    },
+    {
+      "period": "2017-06",
+      "gross_pnl": -230.35276027510412,
+      "net_pnl": -2748.520272652975,
+      "transaction_cost": 2098.4729289012093,
+      "slippage": 419.6945834766617,
+      "account_return": -0.002842797787624529
+    },
+    {
+      "period": "2017-07",
+      "gross_pnl": -742.4610112252825,
+      "net_pnl": -3263.639406250342,
+      "transaction_cost": 2100.9820020414086,
+      "slippage": 420.19639298365075,
+      "account_return": -0.0033852095866093723
+    },
+    {
+      "period": "2017-08",
+      "gross_pnl": -43.03712761326062,
+      "net_pnl": -2562.5220495686203,
+      "transaction_cost": 2099.570768654809,
+      "slippage": 419.91415330055105,
+      "account_return": -0.0026670040593511635
+    },
+    {
+      "period": "2017-09",
+      "gross_pnl": 1003.7220707932495,
+      "net_pnl": -1515.0676332916357,
+      "transaction_cost": 2098.9914117064,
+      "slippage": 419.79829237848566,
+      "account_return": -0.0015810583512854137
+    },
+    {
+      "period": "2017-10",
+      "gross_pnl": -106.18995969335208,
+      "net_pnl": -2267.266126982584,
+      "transaction_cost": 1800.8968069593,
+      "slippage": 360.1793603299317,
+      "account_return": -0.002369766556330144
+    },
+    {
+      "period": "2017-11",
+      "gross_pnl": 1976.4732871381639,
+      "net_pnl": -662.0601010246384,
+      "transaction_cost": 2198.7778069984324,
+      "slippage": 439.7555811643698,
+      "account_return": -0.0006936348104487067
+    },
+    {
+      "period": "2017-12",
+      "gross_pnl": 428.123794749142,
+      "net_pnl": -1852.5447365758616,
+      "transaction_cost": 1900.557105869899,
+      "slippage": 380.1114254551047,
+      "account_return": -0.0019422427772751716
+    },
+    {
+      "period": "2018-01",
+      "gross_pnl": -532.3418491514,
+      "net_pnl": -2931.886328143267,
+      "transaction_cost": 1999.6204035961066,
+      "slippage": 399.92407539576095,
+      "account_return": -0.003079826592188084
+    },
+    {
+      "period": "2018-02",
+      "gross_pnl": 5506.670211276825,
+      "net_pnl": 3346.5700869498937,
+      "transaction_cost": 1800.0833910502029,
+      "slippage": 360.01673327672836,
+      "account_return": 0.0035262952867352038
+    },
+    {
+      "period": "2018-03",
+      "gross_pnl": 739.7178885852361,
+      "net_pnl": -1538.555393966421,
+      "transaction_cost": 1898.5610626287546,
+      "slippage": 379.712219922903,
+      "account_return": -0.0016154857527135302
+    },
+    {
+      "period": "2018-04",
+      "gross_pnl": -1383.3931017976572,
+      "net_pnl": -3784.8752453881775,
+      "transaction_cost": 2001.2351311870505,
+      "slippage": 400.2470124034699,
+      "account_return": -0.003980555908124628
+    },
+    {
+      "period": "2018-05",
+      "gross_pnl": 1005.6532882293693,
+      "net_pnl": -1633.3831779756433,
+      "transaction_cost": 2199.197046790439,
+      "slippage": 439.8394194145738,
+      "account_return": -0.0017246954624490218
+    },
+    {
+      "period": "2018-06",
+      "gross_pnl": 814.5263178055441,
+      "net_pnl": -1704.3657432802386,
+      "transaction_cost": 2099.0767107838365,
+      "slippage": 419.815350301946,
+      "account_return": -0.0018027554251633937
+    },
+    {
+      "period": "2018-07",
+      "gross_pnl": 1127.5912098103463,
+      "net_pnl": -1392.8251840738683,
+      "transaction_cost": 2100.3469855069247,
+      "slippage": 420.06940837728973,
+      "account_return": -0.0014758909126216802
+    },
+    {
+      "period": "2018-08",
+      "gross_pnl": -258.87373210375625,
+      "net_pnl": -2659.0278836419643,
+      "transaction_cost": 2000.1284617724982,
+      "slippage": 400.0256897657099,
+      "account_return": -0.0028217724190756632
+    },
+    {
+      "period": "2018-09",
+      "gross_pnl": 1408.8290195000093,
+      "net_pnl": -629.6052914117829,
+      "transaction_cost": 1698.695247352986,
+      "slippage": 339.7390635588065,
+      "account_return": -0.0006700306574942694
+    },
+    {
+      "period": "2018-10",
+      "gross_pnl": 2580.702667832385,
+      "net_pnl": 59.75079811955345,
+      "transaction_cost": 2100.793203254879,
+      "slippage": 420.15866645795245,
+      "account_return": 6.362987997365899e-05
+    },
+    {
+      "period": "2018-11",
+      "gross_pnl": -521.4882236023566,
+      "net_pnl": -2801.087213573446,
+      "transaction_cost": 1899.6658293216865,
+      "slippage": 379.9331606494029,
+      "account_return": -0.002982746818298798
+    },
+    {
+      "period": "2018-12",
+      "gross_pnl": 580.2940701506084,
+      "net_pnl": -1700.1984357067652,
+      "transaction_cost": 1900.410416712077,
+      "slippage": 380.08208914529666,
+      "account_return": -0.001815878131830484
+    },
+    {
+      "period": "2019-01",
+      "gross_pnl": -63.972845968082,
+      "net_pnl": -2703.471929973061,
+      "transaction_cost": 2199.582570537271,
+      "slippage": 439.9165134677083,
+      "account_return": -0.002892666018235013
+    },
+    {
+      "period": "2019-02",
+      "gross_pnl": -1698.9264491739057,
+      "net_pnl": -3979.5356210109567,
+      "transaction_cost": 1900.5076573553192,
+      "slippage": 380.1015144817318,
+      "account_return": -0.004270383858559601
+    },
+    {
+      "period": "2019-03",
+      "gross_pnl": -177.98254938508325,
+      "net_pnl": -2460.0227269710676,
+      "transaction_cost": 1901.700149471514,
+      "slippage": 380.34002811447124,
+      "account_return": -0.002651137258170344
+    },
+    {
+      "period": "2019-04",
+      "gross_pnl": -1788.7856228596872,
+      "net_pnl": -3707.6029627868106,
+      "transaction_cost": 1599.0144648458204,
+      "slippage": 319.80287508130317,
+      "account_return": -0.004006260799450656
+    },
+    {
+      "period": "2019-05",
+      "gross_pnl": -2493.193642170234,
+      "net_pnl": -5012.44347672217,
+      "transaction_cost": 2099.374882903278,
+      "slippage": 419.8749516486582,
+      "account_return": -0.005437995913116334
+    },
+    {
+      "period": "2019-06",
+      "gross_pnl": 2248.3453278398383,
+      "net_pnl": -30.77395864871329,
+      "transaction_cost": 1899.2660533376388,
+      "slippage": 379.85323315091307,
+      "account_return": -3.356919221952914e-05
+    },
+    {
+      "period": "2019-07",
+      "gross_pnl": -140.87401542334942,
+      "net_pnl": -2659.1688685857566,
+      "transaction_cost": 2098.579045476036,
+      "slippage": 419.715807686372,
+      "account_return": -0.0029008015707470136
+    },
+    {
+      "period": "2019-08",
+      "gross_pnl": -3811.349532343107,
+      "net_pnl": -6091.680868673553,
+      "transaction_cost": 1900.27614537001,
+      "slippage": 380.05519096043713,
+      "account_return": -0.00666455076563055
+    },
+    {
+      "period": "2019-09",
+      "gross_pnl": 2689.4949093771165,
+      "net_pnl": 649.1137567085359,
+      "transaction_cost": 1700.317604811368,
+      "slippage": 340.0635478572123,
+      "account_return": 0.0007149219246109784
+    },
+    {
+      "period": "2019-10",
+      "gross_pnl": 337.63362309378596,
+      "net_pnl": -1821.6754198952817,
+      "transaction_cost": 1799.4241996773028,
+      "slippage": 359.88484331176454,
+      "account_return": -0.002004926357348169
+    },
+    {
+      "period": "2019-11",
+      "gross_pnl": -544.9020169563805,
+      "net_pnl": -2704.247039903602,
+      "transaction_cost": 1799.4541903302602,
+      "slippage": 359.89083261696123,
+      "account_return": -0.0029822592366938183
+    },
+    {
+      "period": "2019-12",
+      "gross_pnl": 936.6216546268928,
+      "net_pnl": -1462.5731896514494,
+      "transaction_cost": 1999.3290290934601,
+      "slippage": 399.86581518488197,
+      "account_return": -0.001617758727194163
+    },
+    {
+      "period": "2020-01",
+      "gross_pnl": 1220.0015698076738,
+      "net_pnl": -1418.1601076794434,
+      "transaction_cost": 2198.46805440594,
+      "slippage": 439.6936230811775,
+      "account_return": -0.0015711750012422643
+    },
+    {
+      "period": "2020-02",
+      "gross_pnl": -538.6573737360616,
+      "net_pnl": -2578.148557421418,
+      "transaction_cost": 1699.5759908933169,
+      "slippage": 339.91519279203897,
+      "account_return": -0.0028608173014316174
+    },
+    {
+      "period": "2020-03",
+      "gross_pnl": -15660.588613959808,
+      "net_pnl": -17709.733075463904,
+      "transaction_cost": 1707.6205150917117,
+      "slippage": 341.52394641238084,
+      "account_return": -0.019707812343454645
+    },
+    {
+      "period": "2020-04",
+      "gross_pnl": 8009.412327991785,
+      "net_pnl": 5966.085696252529,
+      "transaction_cost": 1702.772126370948,
+      "slippage": 340.5545053683062,
+      "account_return": 0.006772676759675633
+    },
+    {
+      "period": "2020-05",
+      "gross_pnl": 1632.6058916656586,
+      "net_pnl": -646.1446660179096,
+      "transaction_cost": 1898.958784464636,
+      "slippage": 379.7917732189334,
+      "account_return": -0.0007285665101535166
+    },
+    {
+      "period": "2020-06",
+      "gross_pnl": 1600.8418679801978,
+      "net_pnl": -1041.305719038034,
+      "transaction_cost": 2201.789642508226,
+      "slippage": 440.35794451000476,
+      "account_return": -0.0011749901396104212
+    },
+    {
+      "period": "2020-07",
+      "gross_pnl": 1407.9327175864444,
+      "net_pnl": -1232.711958753645,
+      "transaction_cost": 2200.5372185506712,
+      "slippage": 440.10745778941873,
+      "account_return": -0.001392605703048555
+    },
+    {
+      "period": "2020-08",
+      "gross_pnl": -51.606140639423415,
+      "net_pnl": -2451.1527018829543,
+      "transaction_cost": 1999.6221347997466,
+      "slippage": 399.924426443785,
+      "account_return": -0.0027729507133983367
+    },
+    {
+      "period": "2020-09",
+      "gross_pnl": -1832.9174517603326,
+      "net_pnl": -4351.631629274284,
+      "transaction_cost": 2098.928496535999,
+      "slippage": 419.7856809779533,
+      "account_return": -0.0049366218077131485
+    },
+    {
+      "period": "2020-10",
+      "gross_pnl": -621.7555126607168,
+      "net_pnl": -3019.3233763972275,
+      "transaction_cost": 1997.9732249617844,
+      "slippage": 399.5946387747266,
+      "account_return": -0.003442204112649838
+    },
+    {
+      "period": "2020-11",
+      "gross_pnl": -2336.940372091096,
+      "net_pnl": -4497.166336350047,
+      "transaction_cost": 1800.1883230236638,
+      "slippage": 360.0376412352858,
+      "account_return": -0.005144740215604182
+    },
+    {
+      "period": "2020-12",
+      "gross_pnl": -1211.056701151547,
+      "net_pnl": -3611.8884272276305,
+      "transaction_cost": 2000.69311515558,
+      "slippage": 400.13861092050433,
+      "account_return": -0.004153353771494839
+    },
+    {
+      "period": "2021-01",
+      "gross_pnl": 3745.0421095680613,
+      "net_pnl": 1346.6824003454658,
+      "transaction_cost": 1998.6330598101815,
+      "slippage": 399.7266494124146,
+      "account_return": 0.0015550247929805305
+    },
+    {
+      "period": "2021-02",
+      "gross_pnl": -2853.026336288767,
+      "net_pnl": -5132.297710240825,
+      "transaction_cost": 1899.3928354019954,
+      "slippage": 379.8785385500623,
+      "account_return": -0.005917103417239722
+    },
+    {
+      "period": "2021-03",
+      "gross_pnl": -1708.7572616265265,
+      "net_pnl": -4226.496878806548,
+      "transaction_cost": 2098.1163618896985,
+      "slippage": 419.6232552903229,
+      "account_return": -0.004901796416934223
+    },
+    {
+      "period": "2021-04",
+      "gross_pnl": 2305.2750719646942,
+      "net_pnl": 26.42277056177204,
+      "transaction_cost": 1899.0435652918372,
+      "slippage": 379.8087361110844,
+      "account_return": 3.07954907192709e-05
+    },
+    {
+      "period": "2021-05",
+      "gross_pnl": 360.2853758613813,
+      "net_pnl": -2040.8208736318936,
+      "transaction_cost": 2000.9218715753882,
+      "slippage": 400.18437791788716,
+      "account_return": -0.0023784842981435794
+    },
+    {
+      "period": "2021-06",
+      "gross_pnl": -1720.6570450370505,
+      "net_pnl": -4360.279366542013,
+      "transaction_cost": 2199.6852822596657,
+      "slippage": 439.93703924529706,
+      "account_return": -0.005093823701572298
+    },
+    {
+      "period": "2021-07",
+      "gross_pnl": -1419.6437102632758,
+      "net_pnl": -3939.35679970907,
+      "transaction_cost": 2099.7609197018655,
+      "slippage": 419.9521697439287,
+      "account_return": -0.004625650174456708
+    },
+    {
+      "period": "2021-08",
+      "gross_pnl": -1344.3780232362278,
+      "net_pnl": -3744.9409919275986,
+      "transaction_cost": 2000.469151779374,
+      "slippage": 400.09381691199684,
+      "account_return": -0.004417799494147889
+    },
+    {
+      "period": "2021-09",
+      "gross_pnl": -2284.1974692594117,
+      "net_pnl": -4565.066564189106,
+      "transaction_cost": 1900.7242648097729,
+      "slippage": 380.14483011992206,
+      "account_return": -0.00540917476245395
+    },
+    {
+      "period": "2021-10",
+      "gross_pnl": 159.6892706578019,
+      "net_pnl": -2238.8404458556283,
+      "transaction_cost": 1998.7747624305282,
+      "slippage": 399.75495408290226,
+      "account_return": -0.002667243061261426
+    },
+    {
+      "period": "2021-11",
+      "gross_pnl": 1345.7240969796767,
+      "net_pnl": -691.560336928259,
+      "transaction_cost": 1697.7370170422573,
+      "slippage": 339.5474168656783,
+      "account_return": -0.0008260939540049028
+    },
+    {
+      "period": "2021-12",
+      "gross_pnl": 3343.428691089001,
+      "net_pnl": 825.8777046392638,
+      "transaction_cost": 2097.9591275128423,
+      "slippage": 419.5918589368952,
+      "account_return": 0.0009873565801770123
+    }
+  ],
+  "yearly": [
+    {
+      "period": "2015",
+      "gross_pnl": 21442.52755300046,
+      "net_pnl": -4468.442129022494,
+      "transaction_cost": 21592.474556331937,
+      "slippage": 4318.4951256910135,
+      "account_return": -0.004468442129022754
+    },
+    {
+      "period": "2016",
+      "gross_pnl": 10278.525688616479,
+      "net_pnl": -17321.172155663367,
+      "transaction_cost": 22999.748117912564,
+      "slippage": 4599.949726367282,
+      "account_return": -0.01739891821481343
+    },
+    {
+      "period": "2017",
+      "gross_pnl": 2311.993641295835,
+      "net_pnl": -26245.643421032597,
+      "transaction_cost": 23798.030866007546,
+      "slippage": 4759.606196320885,
+      "account_return": -0.02683026453643733
+    },
+    {
+      "period": "2018",
+      "gross_pnl": 11067.887766535156,
+      "net_pnl": -17369.489012092126,
+      "transaction_cost": 23697.81388995744,
+      "slippage": 4739.56288866984,
+      "account_return": -0.01824593731300339
+    },
+    {
+      "period": "2019",
+      "gross_pnl": -4507.891159342194,
+      "net_pnl": -31984.082306113887,
+      "transaction_cost": 22896.825993209277,
+      "slippage": 4579.365153562414,
+      "account_return": -0.03422238899008834
+    },
+    {
+      "period": "2020",
+      "gross_pnl": -8382.727790967227,
+      "net_pnl": -36591.28085925397,
+      "transaction_cost": 23507.127626762223,
+      "slippage": 4701.425441524515,
+      "account_return": -0.04053936183803841
+    },
+    {
+      "period": "2021",
+      "gross_pnl": -71.21522959064214,
+      "net_pnl": -28740.677092284437,
+      "transaction_cost": 23891.218219505412,
+      "slippage": 4778.243643188391,
+      "account_return": -0.0331870866019095
+    }
+  ],
+  "split": {
+    "name": "is",
+    "start": "2015-01-01",
+    "last_observed_date": "2021-12-31"
+  }
+}

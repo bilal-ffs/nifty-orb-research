@@ -1,0 +1,142 @@
+[
+  {
+    "multiplier": 0.5,
+    "mode": "next_open",
+    "trades": 1680,
+    "net_pnl": -214678.4063878705,
+    "passed": true
+  },
+  {
+    "multiplier": 0.5,
+    "mode": "pine_close",
+    "trades": 1680,
+    "net_pnl": -214019.7547175323,
+    "passed": true
+  },
+  {
+    "multiplier": 1.0,
+    "mode": "next_open",
+    "trades": 1678,
+    "net_pnl": -208077.08664365584,
+    "passed": true
+  },
+  {
+    "multiplier": 1.0,
+    "mode": "pine_close",
+    "trades": 1678,
+    "net_pnl": -207316.2227186715,
+    "passed": true
+  },
+  {
+    "multiplier": 1.5,
+    "mode": "next_open",
+    "trades": 1676,
+    "net_pnl": -205132.67425722163,
+    "passed": true
+  },
+  {
+    "multiplier": 1.5,
+    "mode": "pine_close",
+    "trades": 1676,
+    "net_pnl": -204274.2400455534,
+    "passed": true
+  },
+  {
+    "multiplier": 2.0,
+    "mode": "next_open",
+    "trades": 1674,
+    "net_pnl": -193002.75383447754,
+    "passed": true
+  },
+  {
+    "multiplier": 2.0,
+    "mode": "pine_close",
+    "trades": 1674,
+    "net_pnl": -192265.93336364333,
+    "passed": true
+  },
+  {
+    "multiplier": 2.5,
+    "mode": "next_open",
+    "trades": 1672,
+    "net_pnl": -184407.61185912942,
+    "passed": true
+  },
+  {
+    "multiplier": 2.5,
+    "mode": "pine_close",
+    "trades": 1672,
+    "net_pnl": -183452.54901753005,
+    "passed": true
+  },
+  {
+    "multiplier": 3.0,
+    "mode": "next_open",
+    "trades": 1664,
+    "net_pnl": -165263.28059811651,
+    "passed": true
+  },
+  {
+    "multiplier": 3.0,
+    "mode": "pine_close",
+    "trades": 1664,
+    "net_pnl": -164599.71380699147,
+    "passed": true
+  },
+  {
+    "multiplier": 3.5,
+    "mode": "next_open",
+    "trades": 1646,
+    "net_pnl": -161294.76854198024,
+    "passed": true
+  },
+  {
+    "multiplier": 3.5,
+    "mode": "pine_close",
+    "trades": 1646,
+    "net_pnl": -160499.25517065142,
+    "passed": true
+  },
+  {
+    "multiplier": 4.0,
+    "mode": "next_open",
+    "trades": 1629,
+    "net_pnl": -168982.39273823498,
+    "passed": true
+  },
+  {
+    "multiplier": 4.0,
+    "mode": "pine_close",
+    "trades": 1629,
+    "net_pnl": -168091.31899217368,
+    "passed": true
+  },
+  {
+    "multiplier": 4.5,
+    "mode": "next_open",
+    "trades": 1614,
+    "net_pnl": -161962.4346156101,
+    "passed": true
+  },
+  {
+    "multiplier": 4.5,
+    "mode": "pine_close",
+    "trades": 1614,
+    "net_pnl": -161342.2841843047,
+    "passed": true
+  },
+  {
+    "multiplier": 5.0,
+    "mode": "next_open",
+    "trades": 1591,
+    "net_pnl": -152936.33784975536,
+    "passed": true
+  },
+  {
+    "multiplier": 5.0,
+    "mode": "pine_close",
+    "trades": 1591,
+    "net_pnl": -152379.2631950456,
+    "passed": true
+  }
+]
